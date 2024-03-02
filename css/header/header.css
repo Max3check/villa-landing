@@ -1,5 +1,5 @@
 .header {
-	height: 100vh;
+	height: 100svh;
 	background-image: url(../../assets/hero.jpg);
 	background-attachment: fixed;
 	background-size: cover;
