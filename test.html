@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>TEST</title>
+		<style>
+			.text-container {
+				position: relative;
+				width: 300px;
+				height: 150px;
+				overflow: hidden;
+			}
+
+			.clip-text {
+				font-size: 2em;
+				font-weight: bold;
+				color: #fff;
+				position: absolute;
+				top: 0;
+				left: 0;
+				margin: 0;
+				padding: 0;
+				line-height: 1;
+				-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+				clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+				background-color: #3498db;
+				animation: slide 3s infinite alternate;
+			}
+
+			@keyframes slide {
+				0% {
+					transform: translateY(0);
+				}
+				100% {
+					transform: translateY(50px);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="text-container">
+			<h1 class="clip-text">TEXT</h1>
+		</div>
+	</body>
+</html>
