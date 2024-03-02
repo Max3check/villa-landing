@@ -10,12 +10,13 @@
 
 	display: grid;
 	place-content: center;
+	gap: 1rem;
 	/* place-items: center; */
 
 	h1 {
-		font-family: "Russo One", sans-serif;
+		/* font-family: "Russo One", sans-serif; */
 		font-weight: 400;
-		font-style: normal;
+		/* font-style: normal; */
 		letter-spacing: 0.1rem;
 		/* font-size: clamp(3.125rem, 2.309vw + 2.527rem, 4.375rem); */
 		font-size: clamp(2.65rem, 3.5vw + 1.75rem, 4.5rem);
@@ -37,8 +38,17 @@
 		-webkit-text-stroke: 1px hsl(0 50% 0% / 0.8);
 		filter: brightness(1.2);
 	}
-	button {
+	h2 {
+		margin-inline-start: 3rem;
+		border-inline-start: 5px solid white;
+		padding-inline-start: 1rem;
+		letter-spacing: 0.15rem;
+		font-weight: 100;
+		text-shadow: 1px 1px hsl(0 50% 0% / 0.8);
+	}
+	a {
 		position: relative;
+		font-family: "Russo One", sans-serif;
 	}
 }
 .header_overlay {
@@ -52,4 +62,32 @@
 h1,
 h2 {
 	position: relative;
+}
+.header_buttons {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+.header_buttons a:first-child {
+	background-color: hsl(34, 100%, 65%);
+	padding: 1rem 2rem;
+	border-radius: 0.5rem;
+	border-color: transparent;
+	font-size: 1.5rem;
+	/* color: hsl(214, 100%, 50%); */
+	color: hsl(209.14deg 69.54% 29.61%);
+	text-decoration: none;
+	letter-spacing: 0.1rem;
+}
+.header_buttons a:last-child {
+	/* background-color: hsl(214, 100%, 40%); */
+	background-color: hsl(209.14deg 69.54% 29.61%);
+	padding: 1rem 2rem;
+	border-radius: 0.5rem;
+	/* border-color: transparent; */
+	font-size: 1.5rem;
+	color: hsl(34, 100%, 65%);
+	text-decoration: none;
+	letter-spacing: 0.1rem;
+	border: 2px solid hsl(34 100% 65%);
 }
