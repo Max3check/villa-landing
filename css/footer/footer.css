@@ -1,4 +1,32 @@
 .footer {
 	height: 100vh;
-	background-color: #5c4e3d;
+	background-color: hsl(33, 20%, 30%);
+	letter-spacing: 0.1rem;
+	font-weight: 100;
+
+	display: grid;
+	place-content: center;
+
+	svg {
+		width: 1rem;
+		color: hsl(209 69% 29%);
+	}
+}
+.footer_container {
+	color: hsl(33, 20%, 20%);
+	background-color: white;
+	margin-inline: 10vw;
+	padding: 7vh 5vw;
+	border-radius: 1rem;
+	box-shadow: 4px 4px 8px 2px hsl(0 50% 0% / 0.3);
+
+	> h2 {
+		text-align: center;
+		margin-block-end: 0.5rem;
+	}
+}
+.footer_card {
+	display: flex;
+	gap: 1rem;
+	margin-block-start: 1rem;
 }
