@@ -18,4 +18,12 @@ const swiper = new Swiper(".swiper", {
 	scrollbar: {
 		el: ".swiper-scrollbar",
 	},
+	effect: "cube",
+	grabCursor: true,
+	cubeEffect: {
+		shadow: true,
+		slideShadows: true,
+		shadowOffset: 20,
+		shadowScale: 0.94,
+	},
 });
