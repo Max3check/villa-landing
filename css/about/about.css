@@ -5,7 +5,10 @@
 	justify-content: space-around;
 	align-items: center;
 	gap: 2rem;
-	background: hsl(32.5 100% 88% / 1);
+	background: #ffe3c2;
+	background-color: #ffe3c2;
+	background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 	/* overflow: hidden; */
 	color: hsl(33, 20%, 20%);
 	letter-spacing: 0.02rem;
@@ -20,7 +23,8 @@
 		filter: url(#noise);
 	}
 	.about_text_decor {
-		border-inline-start: 0.5rem solid hsl(29 48% 63% / 1);
+		/* border-inline-start: 0.5rem solid hsl(29 48% 63% / 1); */
+		border-inline-start: 0.5rem solid hsl(26 30% 40% / 1);
 	}
 	p {
 		position: relative;
@@ -36,11 +40,12 @@
 	p::first-letter {
 		font-size: 1.5rem;
 		/* float: left; */
-		background-color: hsl(33 20% 20% / 0.8);
+		background-color: hsl(33 20% 20% / 0.3);
 		margin-right: 2px;
 		line-height: 1;
 		padding: 0px 5px;
-		color: hsl(29 48% 63% / 1);
+		/* color: hsl(26 30% 40% / 1); */
+		color: hsl(26 40% 35% / 1);
 		/* filter: url(#noise); */
 	}
 	/* p::before {
