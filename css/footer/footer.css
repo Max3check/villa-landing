@@ -23,10 +23,17 @@
 	> h2 {
 		text-align: center;
 		margin-block-end: 0.5rem;
+		font-size: clamp(1.625rem, 0.462vw + 1.505rem, 1.875rem);
 	}
 }
 .footer_card {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 1rem;
 	margin-block-start: 1rem;
+}
+.footer_card_detail {
+	> h2 {
+		font-size: 1.3rem;
+	}
 }
