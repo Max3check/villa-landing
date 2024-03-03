@@ -12,6 +12,7 @@
 	/* overflow: hidden; */
 	color: hsl(33, 20%, 20%);
 	letter-spacing: 0.02rem;
+	filter: brightness(1.2);
 }
 .about_text {
 	padding-inline-start: 1.5rem;
