@@ -36,8 +36,9 @@
 }
 .footer_card {
 	display: flex;
+	flex-direction: column;
 	/* flex-wrap: wrap; */
-	/* gap: 1rem; */
+	gap: 1rem;
 	justify-content: space-between;
 	margin-block-start: 1rem;
 }
@@ -47,15 +48,26 @@
 	padding: 0.5rem 1rem;
 	box-shadow: inset 0px 0px 10px hsl(0 50% 0% / 0.1);
 	background-color: white;
-	> h2 {
-		font-size: 1.3rem;
+	p {
+		width: 80%;
 	}
 }
 .footer_card_detail_header {
 	display: flex;
+	align-items: center;
 	gap: 2rem;
 	padding-inline-start: 1rem;
 	margin-block-end: 0.5rem;
+	> h2 {
+		font-size: 1.3rem;
+		margin-inline-start: auto;
+		transform: rotate(5deg);
+	}
+	a {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
 }
 
 @media (width < 980px) {
