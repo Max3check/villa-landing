@@ -1,0 +1,47 @@
+.about {
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 2rem;
+	background: hsl(32.5 100% 88% / 1);
+	overflow: hidden;
+	color: hsl(33, 20%, 20%);
+	letter-spacing: 0.02rem;
+}
+.about_text {
+	padding-inline-start: 1.5rem;
+	h2,
+	h3 {
+		margin-inline-start: 1.5rem;
+	}
+	h3 {
+		filter: url(#noise);
+	}
+	p {
+		position: relative;
+		border-inline-start: 0.5rem solid hsl(29 48% 63% / 1);
+		margin-block-start: 1rem;
+		padding-inline-start: 1rem;
+		max-width: 50vw;
+		span {
+			display: inline-block;
+			width: 1rem;
+		}
+	}
+	/* p::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 4px;
+		background-color: red;
+	} */
+}
+.about_image img {
+	display: block;
+	/* width: 35vw; */
+	height: 85vh;
+	mix-blend-mode: multiply;
+}
