@@ -6,8 +6,12 @@
 .swiper-slide:nth-child(1) {
 }
 .swiper-slide {
-	display: grid;
-	place-content: center;
+	/* display: grid;
+	place-content: center; */
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	img {
 		display: block;
 	}
