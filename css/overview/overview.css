@@ -1,9 +1,22 @@
 .swiper {
-	max-width: 100vw;
+	max-width: 90vw;
+	/* width: 90vw; */
+	height: 60vw;
+	/* overflow: clip; */
 	/* height: 600px; */
 	border: 5px solid grey;
 }
 .swiper-slide:nth-child(1) {
+	background-image: url(../../assets/slider/1.webp);
+	background-size: cover;
+}
+.swiper-slide:nth-child(2) {
+	background-image: url(../../assets/slider/2.webp);
+	background-size: cover;
+}
+.swiper-slide:nth-child(3) {
+	background-image: url(../../assets/slider/3.webp);
+	background-size: cover;
 }
 .swiper-slide {
 	/* display: grid;
