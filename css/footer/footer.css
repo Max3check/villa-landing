@@ -18,6 +18,7 @@
 }
 .footer_container {
 	height: 80vh;
+	height: auto;
 	color: hsl(33, 20%, 20%);
 	background-color: white;
 	margin-inline: 10vw;
