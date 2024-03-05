@@ -89,3 +89,15 @@
 		flex-direction: column;
 	}
 }
+@media (width < 630px) {
+	.footer_container {
+		max-width: 90vw;
+		margin: auto;
+	}
+	.footer_card_detail p {
+		/* display: none; */
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+	}
+}
