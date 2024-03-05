@@ -77,3 +77,15 @@
 		gap: 1rem;
 	}
 }
+@media (width < 980px) and (orientation: landscape) {
+	.footer_card {
+		flex-direction: row;
+		gap: 1rem;
+	}
+	.footer_card_detail p {
+		display: none;
+	}
+	.footer_card_detail_header {
+		flex-direction: column;
+	}
+}
