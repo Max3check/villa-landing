@@ -1,49 +1,50 @@
 const slides = document.querySelector(".slides");
-// log(`slides: ${slides.children.length}`);
-// log(slides.children);
 const images = document.querySelectorAll(".slides img");
+
+let step = 0;
+// let countStep = 120;
+let index = 0;
+let indexPrev = 0;
+let count = 0;
+let countPrev = 0;
+let rot = [0, -50, 50];
+//       360  120  240
+// let rot = [-50, 50, 0, 0, -50, 50];
+// [0, -50, 50]
+let rotPrev = [50, -50, 0];
 
 function prevSlide() {
 	log(`prevSlide`);
+	step -= 120;
+	// count === 0
+	// 	? (countPrev = 0)
+	// 	: count === 1
+	// 	? (countPrev = 2)
+	// 	: (countPrev = 1);
+	index--;
+	count = Math.abs(index + 3) % 3;
+	slides.style.transform = `rotateY(${step}deg) translateX(${rot[count]}%)`;
+	// index++;
+	// count = index % 3;
+	// indexPrev++;
+	// countPrev = indexPrev % 3;
+
+	log(`index prev: ${index}`);
+	log(`count prev: ${count}`);
 }
-let step = 120;
-let index = 0;
-let count = 0;
-// let rot = -50;
-let rot = [-50, 50, 0];
+
 function nextSlide() {
 	log(`nextSlide`);
-	slides.style.transform = `rotateY(${step}deg) translateX(${rot[count]}%)`;
-	// slides.style.transform = `rotateY(${step}deg)`;
 	step += 120;
 	index++;
 	count = index % 3;
-	// rot += 100;
-	// images.forEach((el, index) => {
-	// 	if (el.index === 0) {
-	// 		el.index = 3;
-	// 	}
-	// return step;
+
+	slides.style.transform = `rotateY(${step}deg) translateX(${rot[count]}%)`;
+	// countStep = step % 360;
+	// countStep === 0 ? (countStep = 360) : null;
+	// index = count;
+	log(`index next: ${index}`);
+	log(`count next: ${count}`);
+	log(`step next: ${step}`);
 }
-
-// setTimeout(() => {
-// if (step === 360) {
-// 	step = 0;
-// }
-// }, 300);
-// });
-// images.forEach((el, index) => {
-// 	log(el);
-// 	el.style.zIndex = "" + index;
-// });
 // log(images);
-// function addZindex(el) {
-// 	el.style.zIndex = 1;
-// }
-
-// images
-log(images);
-// images.forEach((el, index) => {
-// 	log(el);
-// 	el.style.zIndex = "" + index;
-// });
