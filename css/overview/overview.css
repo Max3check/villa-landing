@@ -23,6 +23,19 @@
 		letter-spacing: 0.05rem;
 	}
 }
+.overview_card {
+	border: 1px solid grey;
+	width: 80%;
+	margin: auto;
+	margin-block-end: 1rem;
+	background-color: hsl(0 50% 100% / 1);
+	mix-blend-mode: difference;
+	padding: 0.5rem 1rem;
+	h3 {
+		text-align: center;
+		letter-spacing: 0.05rem;
+	}
+}
 /* SLIDER */
 .slider-container {
 	perspective: 50000px;
