@@ -4,7 +4,7 @@ const images = document.querySelectorAll(".slides img");
 let angle = 0;
 let shift = 0;
 let dataNext = [0, -50, 50];
-let dataPrev = [0, -50, 50];
+// let dataPrev = [0, -50, 50];
 
 function prevSlide() {
 	angle -= 120;
