@@ -1,8 +1,16 @@
 .overview {
-	/* height: 100vh; */
+	color: #3d3429;
+	background-color: #d2bb79;
+	background-color: #bf9540;
+	background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	background-color: #bf9540;
+	background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+	height: 100vh;
 	/* max-width: 100vw; */
 	position: relative;
-	border: 10px solid red;
+	/* border: 10px solid red; */
 	display: grid;
 	grid-template-rows: min-content auto;
 	/* place-content: center; */

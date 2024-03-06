@@ -5,6 +5,7 @@
 	justify-content: space-around;
 	align-items: center;
 	gap: 2rem;
+	padding-block-end: 2rem;
 	background: #ffe3c2;
 	background-color: #ffe3c2;
 	background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
