@@ -53,9 +53,9 @@
 		/* animation: typingAnim 5s steps(50) infinite; */
 		position: relative;
 		/* transform: translateX(100%); */
-		transform: rotateX(90deg);
+		/* transform: rotateX(45deg); */
 
-		animation: a1 5s 5s forwards;
+		/* animation: a1 5s 5s forwards; */
 	}
 	p::before {
 		/* content: "";
@@ -64,6 +64,12 @@
 		transform: translateX(100%);
 		animation: a1 5s forwards; */
 	}
+}
+.rotateOnScroll {
+	animation: a1 1s forwards;
+}
+.overview_typing {
+	transform: rotateX(90deg);
 }
 @keyframes a1 {
 	to {
