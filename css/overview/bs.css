@@ -11,6 +11,6 @@
 }
 
 .test {
-	color: #ffb24d;
-	color: #eac661;
+	color: hsl(34, 100%, 65%);
+	color: hsl(44, 50%, 65%);
 }

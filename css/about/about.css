@@ -7,7 +7,7 @@
 	gap: 2rem;
 	padding-block-end: 2rem;
 	background: #ffe3c2;
-	background-color: #ffe3c2;
+	background-color: hsl(32, 100%, 88%);
 	background-image: url("https://www.transparenttextures.com/patterns/black-linen.png");
 	/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 	/* overflow: hidden; */

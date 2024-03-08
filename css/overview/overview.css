@@ -33,9 +33,60 @@
 	/* padding: 0.5rem 1rem; */
 	padding: 1rem 1rem 0.5rem;
 	text-align: center;
+	overflow: hidden;
 	h3 {
 		letter-spacing: 0.05rem;
 		margin-block-end: 1rem;
+	}
+	p {
+		/* overflow: hidden; */
+		/* white-space: nowrap; */
+		/* height: 3rem; */
+		/* width: 0; */
+		/* width: 22ch; */
+		/* animation: typing 2s steps(22, end), blink 0.5s step-end infinite alternate;
+		white-space: nowrap;
+		overflow: hidden;
+		border-right: 3px solid;
+		font-family: monospace;
+		font-size: 2em; */
+		/* animation: typingAnim 5s steps(50) infinite; */
+		position: relative;
+		/* transform: translateX(100%); */
+		transform: rotateX(90deg);
+
+		animation: a1 5s 5s forwards;
+	}
+	p::before {
+		/* content: "";
+		position: absolute;
+		inset: 0;
+		transform: translateX(100%);
+		animation: a1 5s forwards; */
+	}
+}
+@keyframes a1 {
+	to {
+		transform: rotateX(0);
+	}
+}
+@keyframes typingAnim {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
 	}
 }
 /* SLIDER */
@@ -57,7 +108,8 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 	/* height: 90%; */
-	width: 80%;
+	max-height: 90vh;
+	/* width: 80%; */
 	aspect-ratio: 3/2;
 	margin: auto;
 	/* position: relative; */

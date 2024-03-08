@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+.div1,
+.div2 {
+	height: 100vh;
+}
+.div1 {
+	background-color: pink;
+}
+.div2 {
+	background-color: salmon;
+}
+.square {
+	width: 150px;
+	height: 100px;
+	background-color: fuchsia;
+	background-image: linear-gradient(green 50%, darkgreen 50%);
+}
+.square2 {
+	margin-top: 150px;
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+}
+.red {
+	background-color: red;
+	background-image: linear-gradient(darkgreen 50%, green 50%);
+}
