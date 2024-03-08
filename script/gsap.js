@@ -11,7 +11,7 @@ gsap.to(".overview_typing", {
 		start: "top 85%",
 		end: "bottom 15%",
 		toggleActions: "restart reverse",
-		markers: true,
+		// markers: true,
 		toggleClass: "rotateOnScroll",
 	},
 });
