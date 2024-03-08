@@ -1,11 +1,14 @@
 .footer {
-	height: 100vh;
+	min-height: 100vh;
+	max-height: 100vh;
 	background-color: hsl(33, 20%, 30%);
 	letter-spacing: 0.1rem;
 	font-weight: 100;
 
 	display: grid;
 	place-content: center;
+	gap: 3rem;
+	/* padding-block: 2rem; */
 
 	svg {
 		color: hsl(209 69% 29%);
@@ -59,7 +62,7 @@
 	gap: 2rem;
 	padding-inline-start: 1rem;
 	/* margin-block-end: 1rem; */
-	margin-block: 1rem;
+	/* margin-block: 1rem; */
 	> h2 {
 		font-size: 1.3rem;
 		margin-inline-start: auto;
@@ -74,7 +77,16 @@
 		padding: 0.5rem;
 	}
 }
-
+.footer_info {
+	justify-self: end;
+	margin-inline-end: 1rem;
+	.copyright {
+		text-align: right;
+	}
+}
+.copyright img {
+	width: 1rem;
+}
 @media (width < 980px) {
 	.footer_card {
 		flex-direction: column;
