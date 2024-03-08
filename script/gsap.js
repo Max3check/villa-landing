@@ -8,9 +8,10 @@ gsap.to(".overview_typing", {
 	// duration: 3,
 	scrollTrigger: {
 		trigger: ".overview_typing",
-		start: "top 70%",
-		// end: "bottom 50%",
-		// markers: true,
+		start: "top 85%",
+		end: "bottom 15%",
+		toggleActions: "restart reverse",
+		markers: true,
 		toggleClass: "rotateOnScroll",
 	},
 });

@@ -65,34 +65,25 @@
 		animation: a1 5s forwards; */
 	}
 }
-.rotateOnScroll {
-	animation: a1 1s forwards;
+.rotateOnScrollBack {
+	/* animation: a2 1s forwards; */
 }
 .overview_typing {
 	transform: rotateX(90deg);
+	transition: all 1s;
+}
+.rotateOnScroll {
+	/* animation: a1 1s forwards; */
+	transform: rotateX(0);
 }
 @keyframes a1 {
 	to {
 		transform: rotateX(0);
 	}
 }
-@keyframes typingAnim {
-	from {
-		width: 0;
-	}
+@keyframes a2 {
 	to {
-		width: 100%;
-	}
-}
-@keyframes typing {
-	from {
-		width: 0;
-	}
-}
-
-@keyframes blink {
-	50% {
-		border-color: transparent;
+		transform: rotateX(90);
 	}
 }
 /* SLIDER */
