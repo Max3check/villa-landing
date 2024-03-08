@@ -46,63 +46,64 @@
 		/>
 	</head>
 	<body>
-		<header class="header">
-			<div class="header_overlay"></div>
-			<h1>
-				Добро пожаловать <br />
-				в наш<br />
-				коттеджный посёлок!
-			</h1>
-			<h2>
-				Откройте для себя идеальное место, где можно расслабиться и
-				воссоединиться с природой.
-			</h2>
-			<div class="header_buttons">
-				<a href="#">Обзор</a>
-				<a href="#">Контакты</a>
-			</div>
-		</header>
-		<section class="about">
-			<div class="about_text">
-				<h2>О нас</h2>
-				<h3>Наша история</h3>
-				<!-- <span></span> -->
-				<div class="about_text_decor">
-					<p>
-						Наш путь от скромного начала к созданию безмятежного пристанища для
-						всех.
-					</p>
-					<!-- <br />
+		<main class="main">
+			<header class="header">
+				<div class="header_overlay"></div>
+				<h1>
+					Добро пожаловать <br />
+					в наш<br />
+					коттеджный посёлок!
+				</h1>
+				<h2>
+					Откройте для себя идеальное место, где можно расслабиться и
+					воссоединиться с природой.
+				</h2>
+				<div class="header_buttons">
+					<a href="#">Обзор</a>
+					<a href="#footer_id">Контакты</a>
+				</div>
+			</header>
+			<section class="about">
+				<div class="about_text">
+					<h2>О нас</h2>
+					<h3>Наша история</h3>
+					<!-- <span></span> -->
+					<div class="about_text_decor">
+						<p>
+							Наш путь от скромного начала к созданию безмятежного пристанища
+							для всех.
+						</p>
+						<!-- <br />
                     <span></span> -->
-					<p>
-						С годами мы приобрели богатый опыт и ценные уроки, которые помогли
-						нам сформировать теплую и гостеприимную атмосферу.
-					</p>
-					<!-- <br />
+						<p>
+							С годами мы приобрели богатый опыт и ценные уроки, которые помогли
+							нам сформировать теплую и гостеприимную атмосферу.
+						</p>
+						<!-- <br />
                             <span></span> -->
-					<p>
-						Благодарим вас за ваш выбор, и даем вам возможность стать частью
-						нашей увлекательной истории.
+						<p>
+							Благодарим вас за ваш выбор, и даем вам возможность стать частью
+							нашей увлекательной истории.
+						</p>
+					</div>
+				</div>
+				<div class="about_image">
+					<img
+						src="./assets/about.avif"
+						alt="about us image"
+						srcset=""
+					/>
+				</div>
+			</section>
+			<section class="overview">
+				<h2>Наши коттеджи</h2>
+				<div class="overview_card">
+					<h3>Современный комфорт</h3>
+					<p class="overview_typing">
+						Насладитесь современными удобствами в спокойной обстановке.
 					</p>
 				</div>
-			</div>
-			<div class="about_image">
-				<img
-					src="./assets/about.avif"
-					alt="about us image"
-					srcset=""
-				/>
-			</div>
-		</section>
-		<section class="overview">
-			<h2>Наши коттеджи</h2>
-			<div class="overview_card">
-				<h3>Современный комфорт</h3>
-				<p class="overview_typing">
-					Насладитесь современными удобствами в спокойной обстановке.
-				</p>
-			</div>
-			<!-- <div
+				<!-- <div
 				id="carouselExample"
 				class="carousel slide"
 			>
@@ -155,118 +156,123 @@
 				</button>
 			</div> -->
 
-			<div class="slider-container">
-				<div class="slides"></div>
-				<button
-					class="prev"
-					onclick="prevSlide()"
-				>
-					&#10094;
-				</button>
-				<button
-					class="next"
-					onclick="nextSlide()"
-				>
-					&#10095;
-				</button>
-			</div>
-		</section>
+				<div class="slider-container">
+					<div class="slides"></div>
+					<button
+						class="prev"
+						onclick="prevSlide()"
+					>
+						&#10094;
+					</button>
+					<button
+						class="next"
+						onclick="nextSlide()"
+					>
+						&#10095;
+					</button>
+				</div>
+			</section>
 
-		<section class="amentities">
-			<h2>Удобства</h2>
-		</section>
-		<section class="location">
-			<h2>Местоположение</h2>
-		</section>
-		<footer class="footer">
-			<div class="footer_container">
-				<h2>Контакты</h2>
-				<hr />
-				<div class="footer_card">
-					<div class="footer_card_detail">
-						<div class="footer_card_detail_header">
-							<a href="tel:+7 (926) 604-66-41">
-								<svg
-									class="colorable-icon"
-									aria-hidden="true"
-									focusable="false"
-									data-prefix="fal"
-									data-icon="phone"
-									role="img"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 512 512"
-								>
-									<path
-										fill="currentColor"
-										d="M375.8 275.2c-16.4-7-35.4-2.4-46.7 11.4l-33.2 40.6c-46-26.7-84.4-65.1-111.1-111.1L225.3 183c13.8-11.3 18.5-30.3 11.4-46.7l-48-112C181.2 6.7 162.3-3.1 143.6 .9l-112 24C13.2 28.8 0 45.1 0 64v0C0 300.7 183.5 494.5 416 510.9c4.5 .3 9.1 .6 13.7 .8c0 0 0 0 0 0c0 0 0 0 .1 0c6.1 .2 12.1 .4 18.3 .4l0 0c18.9 0 35.2-13.2 39.1-31.6l24-112c4-18.7-5.8-37.6-23.4-45.1l-112-48zM447.7 480C218.1 479.8 32 293.7 32 64v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0c0-3.8 2.6-7 6.3-7.8l112-24c3.7-.8 7.5 1.2 9 4.7l48 112c1.4 3.3 .5 7.1-2.3 9.3l-40.6 33.2c-12.1 9.9-15.3 27.2-7.4 40.8c29.5 50.9 71.9 93.3 122.7 122.7c13.6 7.9 30.9 4.7 40.8-7.4l33.2-40.6c2.3-2.8 6.1-3.7 9.3-2.3l112 48c3.5 1.5 5.5 5.3 4.7 9l-24 112c-.8 3.7-4.1 6.3-7.8 6.3c-.1 0-.2 0-.3 0z"
-									></path>
-								</svg>
-								<!-- +7 (926) 604-66-41 -->
-							</a>
+			<section class="amentities">
+				<h2>Удобства</h2>
+			</section>
+			<section class="location">
+				<h2>Местоположение</h2>
+			</section>
+			<footer
+				class="footer"
+				id="footer_id"
+			>
+				<div class="footer_container">
+					<h2>Контакты</h2>
+					<hr />
+					<div class="footer_card">
+						<div class="footer_card_detail">
+							<div class="footer_card_detail_header">
+								<a href="tel:+7 (926) 604-66-41">
+									<svg
+										class="colorable-icon"
+										aria-hidden="true"
+										focusable="false"
+										data-prefix="fal"
+										data-icon="phone"
+										role="img"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 512 512"
+									>
+										<path
+											fill="currentColor"
+											d="M375.8 275.2c-16.4-7-35.4-2.4-46.7 11.4l-33.2 40.6c-46-26.7-84.4-65.1-111.1-111.1L225.3 183c13.8-11.3 18.5-30.3 11.4-46.7l-48-112C181.2 6.7 162.3-3.1 143.6 .9l-112 24C13.2 28.8 0 45.1 0 64v0C0 300.7 183.5 494.5 416 510.9c4.5 .3 9.1 .6 13.7 .8c0 0 0 0 0 0c0 0 0 0 .1 0c6.1 .2 12.1 .4 18.3 .4l0 0c18.9 0 35.2-13.2 39.1-31.6l24-112c4-18.7-5.8-37.6-23.4-45.1l-112-48zM447.7 480C218.1 479.8 32 293.7 32 64v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0c0-3.8 2.6-7 6.3-7.8l112-24c3.7-.8 7.5 1.2 9 4.7l48 112c1.4 3.3 .5 7.1-2.3 9.3l-40.6 33.2c-12.1 9.9-15.3 27.2-7.4 40.8c29.5 50.9 71.9 93.3 122.7 122.7c13.6 7.9 30.9 4.7 40.8-7.4l33.2-40.6c2.3-2.8 6.1-3.7 9.3-2.3l112 48c3.5 1.5 5.5 5.3 4.7 9l-24 112c-.8 3.7-4.1 6.3-7.8 6.3c-.1 0-.2 0-.3 0z"
+										></path>
+									</svg>
+									<!-- +7 (926) 604-66-41 -->
+								</a>
 
-							<h2>Звонок</h2>
+								<h2>Звонок</h2>
+							</div>
+
+							<p>Свяжитесь с нашей командой для вопросов, или бронирования.</p>
 						</div>
+						<div class="footer_card_detail">
+							<div class="footer_card_detail_header">
+								<a href="mailto:example@example.com">
+									<svg
+										class="colorable-icon"
+										aria-hidden="true"
+										focusable="false"
+										data-prefix="fal"
+										data-icon="square-envelope"
+										role="img"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 448 512"
+									>
+										<path
+											fill="currentColor"
+											d="M384 64c17.7 0 32 14.3 32 32V416c0 17.7-14.3 32-32 32H64c-17.7 0-32-14.3-32-32V96c0-17.7 14.3-32 32-32H384zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM352 160v29.2L231.3 255.6c-2.2 1.2-4.7 1.9-7.3 1.9s-5.1-.6-7.3-1.9L96 189.2V160H352zm0 65.7V352H96V225.7l105.3 57.9c7 3.8 14.8 5.8 22.7 5.8s15.8-2 22.7-5.8L352 225.7zM96 128c-17.7 0-32 14.3-32 32V352c0 17.7 14.3 32 32 32H352c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H96z"
+										></path>
+									</svg>
+								</a>
 
-						<p>Свяжитесь с нашей командой для вопросов, или бронирования.</p>
-					</div>
-					<div class="footer_card_detail">
-						<div class="footer_card_detail_header">
-							<a href="mailto:example@example.com">
-								<svg
-									class="colorable-icon"
-									aria-hidden="true"
-									focusable="false"
-									data-prefix="fal"
-									data-icon="square-envelope"
-									role="img"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 448 512"
-								>
-									<path
-										fill="currentColor"
-										d="M384 64c17.7 0 32 14.3 32 32V416c0 17.7-14.3 32-32 32H64c-17.7 0-32-14.3-32-32V96c0-17.7 14.3-32 32-32H384zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM352 160v29.2L231.3 255.6c-2.2 1.2-4.7 1.9-7.3 1.9s-5.1-.6-7.3-1.9L96 189.2V160H352zm0 65.7V352H96V225.7l105.3 57.9c7 3.8 14.8 5.8 22.7 5.8s15.8-2 22.7-5.8L352 225.7zM96 128c-17.7 0-32 14.3-32 32V352c0 17.7 14.3 32 32 32H352c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H96z"
-									></path>
-								</svg>
-							</a>
+								<h2>Письмо</h2>
+							</div>
 
-							<h2>Письмо</h2>
+							<p>Отправьте нам сообщение, и мы оперативно свяжемся с вами.</p>
 						</div>
-
-						<p>Отправьте нам сообщение, и мы оперативно свяжемся с вами.</p>
-					</div>
-					<div class="footer_card_detail">
-						<div class="footer_card_detail_header">
-							<a
-								href="https://www.google.com/maps?q=48.858844,2.294350"
-								target="_blank"
-							>
-								<svg
-									class="colorable-icon"
-									aria-hidden="true"
-									focusable="false"
-									data-prefix="fal"
-									data-icon="location-crosshairs"
-									role="img"
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 512 512"
+						<div class="footer_card_detail">
+							<div class="footer_card_detail_header">
+								<a
+									href="https://www.google.com/maps?q=48.858844,2.294350"
+									target="_blank"
 								>
-									<path
-										fill="currentColor"
-										d="M256 0c8.8 0 16 7.2 16 16V64.7c93.3 7.7 167.6 82.1 175.3 175.3H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H447.3c-7.7 93.3-82.1 167.6-175.3 175.3V496c0 8.8-7.2 16-16 16s-16-7.2-16-16V447.3C146.7 439.6 72.4 365.3 64.7 272H16c-8.8 0-16-7.2-16-16s7.2-16 16-16H64.7C72.4 146.7 146.7 72.4 240 64.7V16c0-8.8 7.2-16 16-16zM96 256a160 160 0 1 0 320 0A160 160 0 1 0 96 256zm224 0a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-160 0a96 96 0 1 1 192 0 96 96 0 1 1 -192 0z"
-									></path>
-								</svg>
-							</a>
+									<svg
+										class="colorable-icon"
+										aria-hidden="true"
+										focusable="false"
+										data-prefix="fal"
+										data-icon="location-crosshairs"
+										role="img"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 512 512"
+									>
+										<path
+											fill="currentColor"
+											d="M256 0c8.8 0 16 7.2 16 16V64.7c93.3 7.7 167.6 82.1 175.3 175.3H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H447.3c-7.7 93.3-82.1 167.6-175.3 175.3V496c0 8.8-7.2 16-16 16s-16-7.2-16-16V447.3C146.7 439.6 72.4 365.3 64.7 272H16c-8.8 0-16-7.2-16-16s7.2-16 16-16H64.7C72.4 146.7 146.7 72.4 240 64.7V16c0-8.8 7.2-16 16-16zM96 256a160 160 0 1 0 320 0A160 160 0 1 0 96 256zm224 0a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm-160 0a96 96 0 1 1 192 0 96 96 0 1 1 -192 0z"
+										></path>
+									</svg>
+								</a>
 
-							<h2>Визит</h2>
+								<h2>Визит</h2>
+							</div>
+
+							<p>
+								Запланируйте поездку, чтобы лично познакомиться с нашей
+								деревней.
+							</p>
 						</div>
-
-						<p>
-							Запланируйте поездку, чтобы лично познакомиться с нашей деревней.
-						</p>
 					</div>
 				</div>
-			</div>
-		</footer>
+			</footer>
+		</main>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="200"

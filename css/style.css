@@ -30,3 +30,7 @@ body * {
 #svg_noise_id {
 	/* display: none; */
 }
+.main {
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
