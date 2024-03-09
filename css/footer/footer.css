@@ -80,8 +80,13 @@
 .footer_info {
 	justify-self: end;
 	margin-inline-end: 1rem;
+	color: hsl(36, 100%, 90%);
 	.copyright {
 		text-align: right;
+		a {
+			color: hsl(36, 100%, 90%);
+			text-decoration: none;
+		}
 	}
 }
 .copyright img {
