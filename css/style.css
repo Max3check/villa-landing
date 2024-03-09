@@ -36,3 +36,8 @@ body * {
 	/* overflow-y: scroll;
 	scroll-behavior: smooth; */
 }
+.info_window {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
