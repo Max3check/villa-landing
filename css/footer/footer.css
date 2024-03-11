@@ -79,8 +79,13 @@
 }
 .footer_info {
 	justify-self: end;
-	margin-inline-end: 1rem;
+	/* margin-inline-end: 1rem;
+	 */
 	color: hsl(36, 100%, 90%);
+	background-image: url(../../assets/stones.jpg);
+	padding: 1rem;
+	border-radius: 0.5rem;
+	background-size: cover;
 	.copyright {
 		text-align: right;
 		a {
