@@ -12,7 +12,7 @@ window.onload = () => {
 				start: "top 85%",
 				end: "bottom 10%",
 				toggleActions: "restart reverse",
-				markers: true,
+				// markers: true,
 				toggleClass: "rotateOnScroll",
 			},
 		});

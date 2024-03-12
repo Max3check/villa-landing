@@ -37,6 +37,7 @@ body * {
 	scroll-behavior: smooth; */
 }
 .info_window {
+	display: none;
 	position: fixed;
 	bottom: 0;
 	left: 0;
